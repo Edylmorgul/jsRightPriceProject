@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" integrity="undefined" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Juste prix</title>
+</head>
+<body>
+    <div class="container">
+  
+        <div class="row justify-content-center mt-5">
+          <header>
+            Le Juste Prix
+          </header>
+        </div>
+        
+        <!-- Formulaire -->
+        <div class="row justify-content-center mt-5 mb-4">   
+          <div class="col-lg-8">   
+            <div class="bg-light p-5 shadow">
+              
+              <form id="formulaire">
+                <div class="row">
+                  <div class="col-md-10">
+                    <input id="prix" class="form-control" placeholder="Devinez le prix ! (entre 0 et 10)" />                    
+                  </div>
+                  <div class="col-md-2">
+                    <button type="submit" class="btn btn-primary">Deviner</button>
+                  </div>                
+                </div>
+                <small class="text-danger">Vous devez rentrer un nombre.</small>
+              </form>             
+            </div>  
+          </div>
+        </div>
+        
+        <!-- Instructions -->
+        <div class="row justify-content-center">
+          <div id="instructions" class="col-lg-8"></div>
+        </div>
+        
+      </div>
+    <script src= "script.js"></script>
+</body>
+</html>
